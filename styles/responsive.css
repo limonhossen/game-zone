@@ -15,4 +15,10 @@
         .nav-items-container .follow-btn  {
             margin-bottom: 10px;
         }
-}
+        .banner-container{
+            flex-direction: column;
+        }
+        .banner-text,.banner-img{
+            width: 100%;
+        }
+    }
