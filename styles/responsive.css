@@ -21,4 +21,7 @@
         .banner-text,.banner-img{
             width: 100%;
         }
+        .grid-container{
+            grid-template-columns: 1fr;
+        }
     }

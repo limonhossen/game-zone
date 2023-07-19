@@ -119,3 +119,51 @@ gap: 10px;
 border-radius: 48px;
 background: #4EC5F7;
 }
+
+.grid-container{
+    display: grid;
+   
+    max-width: 1400;
+    margin: 50px auto 0;
+    min-height: 400px;
+    grid-template-columns: repeat(4,1fr);
+}
+.on-line{
+    color: #0B0223;
+text-align: right;
+font-size: 48px;
+font-weight: 700;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+
+}
+.text{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.game-video{
+
+   
+}
+.game-video img{
+    width: 342px;
+height: 400px;
+flex-shrink: 0;
+}
+.game-text{
+    width: 342px;
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+}
