@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background-color: #fff;
+}
+.nav-container{
+    
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+   
+}
+.logo-container{
+
+display: flex;
+width: 50%;
+}
+.logo-container img{
+    width: 90px;
+     flex-shrink: 0;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.game-section{
+    color: #ff42a5;
+}
+.nav-items-container{
+
+width: 50%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #3C354F;
+}
+.follow-btn{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 10px 20px;
+font-weight: 500;
+}
